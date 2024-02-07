@@ -11,3 +11,159 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.headers{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin-top: 10px; */
+  /* background-color: black; */
+  color: black;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.headersButton button{
+  background-color: orange;
+  color: white;
+  border: 2px solid orange;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-right: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+/* styling for form  */
+.taskForm{
+  /* border: 2px solid aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 5px;
+  width: 100%;
+}
+
+label{
+  margin-top: 10px;
+  margin-left: 3%;
+}
+
+input{
+  margin-top: 5px;
+  margin-left: 20px;
+  width: 90%;
+  /* border: 2px solid yellow; */
+  padding: 8px;
+}
+
+textarea{
+  margin-top: 5px;
+  margin-left: 20px;
+  width: 90%;
+  /* border: 2px solid yellow; */
+  padding: 8px;
+}
+
+.errorInputClass{
+  margin-top: 5px;
+  margin-left: 20px;
+  width: 350px;
+   border: 2px solid red; 
+  padding: 8px;
+}
+
+.checkBoxInput{
+  margin-top: -12px;
+  margin-left: 100px;
+}
+
+.saveTaskButton{
+  background-color: black;
+  color: white;
+  width: 93.5%;
+  padding: 8px;
+  margin-left: 20px;
+  margin-top: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.formName{
+  margin-bottom: 10px;
+  text-align: left;
+  /* margin-left: 20px; */
+}
+
+/* css for taskList  */
+.taskListDiv{
+  border-right: 5px solid transparent;
+  background-color: white;
+  margin-top: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  /* width: 60%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: pink;
+  margin-bottom: 5px;
+  text-align: left;
+
+}
+
+.taskListDivChecked{
+  border-right: 5px solid red;
+  background-color: white;
+  /* border-radius: 10px; */
+  margin-top: 15px;
+  background-color: pink;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+    /* width: 60%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  text-align: left;
+
+}
+
+.taskListHeading{
+  /* border: 1px solid red; */
+  text-align: left;
+}
+
+.listButton{
+  margin-top: 4%;
+}
+
+.deleteButton{
+  color: red;
+  margin-right: 5px;
+}
+
+.editButton{
+  margin: 2px;
+  background-color: black;
+  color: aquamarine;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.disableForm{
+  display: none;
+}

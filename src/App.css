@@ -1,5 +1,16 @@
 .App {
   text-align: center;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.mainbody{
+  border: 2px solid pink;
+  width: 40%;
 }
 
 .App-logo {

@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskForm should post data and return that data 1`] = `
+<div>
+  <form
+    class="taskForm"
+    data-testid="taskForm"
+  >
+    <label
+      for="task"
+    >
+      Task
+    </label>
+    <input
+      data-testid="textInput"
+      id="task"
+      placeholder="Add Task"
+      required=""
+      type="text"
+      value="sample 1"
+    />
+    <label
+      for="date"
+    >
+      Date
+    </label>
+    <input
+      data-testid="dateInput"
+      id="date"
+      placeholder="Set Date"
+      required=""
+      type="date"
+      value="2024-02-01"
+    />
+    <label
+      for="time"
+    >
+      Time
+    </label>
+    <input
+      data-testid="timeInput"
+      id="time"
+      placeholder="Set Time"
+      required=""
+      type="time"
+      value="05:47"
+    />
+    <label
+      for="description"
+    >
+      Task Description
+    </label>
+    <textarea
+      cols="60"
+      data-testid="descriptionInput"
+      id="description"
+      placeholder="Task Description ..."
+      required=""
+      rows="6"
+      type="text"
+    >
+      some description
+    </textarea>
+    <label
+      for="Reminder Check"
+    >
+      Set Reminder
+    </label>
+    <input
+      class="checkBoxInput"
+      data-testid="reminderInput"
+      id="Reminder Check"
+      type="checkBox"
+      value="false"
+    />
+    <button
+      class="saveTaskButton"
+    >
+      Save Task
+    </button>
+  </form>
+</div>
+`;
+
+exports[`TaskForm should update data and return that data 1`] = `
+<div>
+  <form
+    class="taskForm"
+    data-testid="taskForm"
+  >
+    <label
+      for="task"
+    >
+      Task
+    </label>
+    <input
+      data-testid="textInput"
+      id="task"
+      placeholder="Add Task"
+      required=""
+      type="text"
+      value="sample 1"
+    />
+    <label
+      for="date"
+    >
+      Date
+    </label>
+    <input
+      data-testid="dateInput"
+      id="date"
+      placeholder="Set Date"
+      required=""
+      type="date"
+      value="2024-02-01"
+    />
+    <label
+      for="time"
+    >
+      Time
+    </label>
+    <input
+      data-testid="timeInput"
+      id="time"
+      placeholder="Set Time"
+      required=""
+      type="time"
+      value="05:47"
+    />
+    <label
+      for="description"
+    >
+      Task Description
+    </label>
+    <textarea
+      cols="60"
+      data-testid="descriptionInput"
+      id="description"
+      placeholder="Task Description ..."
+      required=""
+      rows="6"
+      type="text"
+    >
+      some description
+    </textarea>
+    <label
+      for="Reminder Check"
+    >
+      Set Reminder
+    </label>
+    <input
+      class="checkBoxInput"
+      data-testid="reminderInput"
+      id="Reminder Check"
+      type="checkBox"
+      value="false"
+    />
+    <button
+      class="saveTaskButton"
+    >
+      Update Task
+    </button>
+  </form>
+</div>
+`;
